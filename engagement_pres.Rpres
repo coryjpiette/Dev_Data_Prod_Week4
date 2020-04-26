@@ -1,0 +1,37 @@
+Developing Data Products - A Man's Guide to Engagement Rings
+========================================================
+author: Cory Piette
+date: April 22, 2020
+autosize: true
+width: 1500
+height: 800
+
+Introduction - Carats Alone Don't Affect the Price
+========================================================
+Let's face it:  Most men know absolutely NOTHING about diamonds - until one is needed before proposing to your special someone. After my secret was out, my fiancee's friends were free to tell her all of the horror stories surrounding my struggle to choose a diamond. As you probably figured, my fiancee found it hilarious. As such, she came up with the idea for this presentation: Demonstrating the various cut, color, and clarity grades that impact a diamiond's appearance...as well as the impact on the man's wallet! The carat size is only one contributing factor. The gradations are as follows:    
+
+- Cut (overall diamond quality): Ideal, Premium, Very Good, Good, Fair
+- Color (from best to worst): D,E,F,G,H,I,J
+- Clarity (from best to worst): IF,VVS2, VVS1, VS2, VS1, SI2, SI1, I1
+
+Documentation
+========================================================
+The sample set in the "diamonds" file consists of approximately 50,000 diamonds. This dataset found can be found in the ggplot2 R package. 
+```{r echo=FALSE}
+library(ggplot2)
+data(diamonds)
+str(diamonds[,c(1:4,7)])
+```
+
+Below is a plot of the varying diamond features.
+========================================================
+```{r, echo=FALSE}
+plot(diamonds[,c(1:4,7)])
+```
+
+Supporting Data
+========================================================
+
+The source code can be found at https://github.com/coryjpiette/Dev_Data_Prod_Week4
+
+The shiny app can be found at https://corypiette.shinyapps.io/Developing-Data-Products-Project-master/
