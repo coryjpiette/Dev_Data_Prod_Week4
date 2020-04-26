@@ -1,6 +1,7 @@
-# Developing-Data-Products-Project
-Week 4 course project includes a shiny app to determine diamond price based on factors such as carat, cut, color, and clarity.  
- https://lisabags.shinyapps.io/my_app/
+# Developing Data Products: Week 4 Project
 
-Also included is a pitch presentation for the app
- http://rpubs.com/LisaBags/356815
+The shiny app to determine diamond prices based on carat size, cut, color, and clarity can be found at:
+ https://corypiette.shinyapps.io/Developing-Data-Products-Project-master/
+
+The reproducbile pitch presentation can be found at:
+https://rpubs.com/corypiette/Dev_Data_Prod_Week4_Project
